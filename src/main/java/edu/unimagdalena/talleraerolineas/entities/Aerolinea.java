@@ -8,6 +8,7 @@ import java.util.Set;
 
 @Getter
 @Setter
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -30,6 +31,8 @@ public class Aerolinea {
     public void addVuelo(Vuelo vuelo) {
         vuelos.add(vuelo);
     }
+
+
 
 //    @OneToMany(mappedBy = "aerolinea")
 //    private Set<Vuelo> vuelos;
